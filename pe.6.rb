@@ -30,7 +30,7 @@ class Difference
     return sum**2
   end
   def self.diff(x)
-    y = sum_of_square(x) - square_of_sum(x)
+    y = square_of_sum(x) - sum_of_square(x)  
     puts y.abs
   end
 end
